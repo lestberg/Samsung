@@ -1,8 +1,3 @@
----
-title: "readme"
-output: html_document
----
-
 ## Introduction
 The goal of this course assignment is to produce a tidy data set summarizing inertial motion measurements made on a group of volunteers that performed various activities while carrying a smartphone with embedded accelerometers and gyroscopes.
 
@@ -24,7 +19,7 @@ An R script named 'run_analysis.R' is provided.  This script assumes that the ra
 
 ### access the data set
 The following code may be useful for loading and viewing the the data set (reference source: https://class.coursera.org/getdata-011/forum/thread?thread_id=248).
- 
+
 address <- "https://s3.amazonaws.com/coursera-uploads/user-b44c13406aa64c26bf427e7c/973498/asst-3/0d5cd7c0b7a611e4aa4993efcab45140.txt"
 
 address <- sub("^https", "http", address)
@@ -32,7 +27,6 @@ address <- sub("^https", "http", address)
 data <- read.table(url(address), header = TRUE)
 
 View(data)
-
 
 
 If the above code does not work, you may download the data set to your working directory and try the following code.

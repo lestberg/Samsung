@@ -1,8 +1,3 @@
----
-title: "code book"
-output: html_document
----
-
 ## Raw Data Source
 The raw data was collected by a group at the Non Linear Systems Laboratory at a University in Genoa Italy (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).  The group performed an experiment with a group of 30 volunteers between the ages of 19-48 years.  Each person performed six activities (walking, walking upstairs, walking downstairs, sitting, standing, laying) wearing a smartphone (Samsung Galaxy S II) attached to the waist.  Using the phone`s embedded accelerometer and gyroscope, the group captured 3-axial (XYZ) linear acceleration (Acc) and angular velocity (Gyro).  The sensor signals were sampled in 2.56 second sliding windows, and some were separated into separate axes in the X, Y, and Z directions.  The acceleration signals were separated into gravitational (Gravity) and body (Body) motion components.  Within the time-domain signals (time), further processing of both the body acceleration and angular velocity signals included time derivations (Jerk signals) and Euclidean norm magnitudes (Mag signals).  Finally, a set of frequency domain signals (freq) were obtained by applying a Fast Fourier Transform.
 

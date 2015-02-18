@@ -1,6 +1,6 @@
 # This function reads in the Samsung raw data sets unzipped in your working
 # directory and returns a single tidy set of summary metrics for each
-# activity performed by the study subjects
+# activity performed by the study subjects 
 
 run_analysis <- function() {
         # read in the `train` and `test` data sets that include the metrics
